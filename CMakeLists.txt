@@ -67,7 +67,7 @@ set(SOURCE_FILES
 	src/volume.hpp
 	src/io_util.cpp)
 
-set(THIRDPARTY_LIBRARIES ${ZLIB_LIBRARIES} ${Boost_LIBRARIES})
+set(THIRDPARTY_LIBRARIES ${Boost_LIBRARIES} ${ZLIB_LIBRARIES} )
 
 add_executable(gttool ${SOURCE_FILES})
 target_link_libraries(gttool ${THIRDPARTY_LIBRARIES})
