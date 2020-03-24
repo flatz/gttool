@@ -3,6 +3,7 @@
 #include "util.hpp"
 
 #include <cstring>
+#include <vector>
 
 #include <boost/endian/conversion.hpp>
 
